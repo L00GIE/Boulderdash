@@ -7,7 +7,7 @@ class Core:
     def __init__(self, screen):
         self.screen = screen
         self.scene = None
-        self.currentscene = 1 # set to 0 to start at beginning
+        self.currentscene = 0 # set to 0 to start at beginning
         self.initScenes()
 
     def loop(self, events):
